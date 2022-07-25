@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Vercel](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/intro-component-with-sign-up-form-lPIWTZOP-5)
+- Live Site URL: [Vercel](https://intro-component-with-signup-form-amber-ten.vercel.app/)
 
 ## My process
 
