@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" type="text/css" href="./dist/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+</head>
+
+<body>
+
+  <main>
+
+    <header>
+      <h1>Learn to code by watching others</h1>
+
+      <p class="header__text">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+      but understanding how developers think is invaluable.</p>
+
+    </header>
+
+    <section>
+
+      <button class="trial__btn shadow"><strong>Try it free 7 days</strong> then $20/mo. thereafter</button>
+
+      <form class="form shadow" id="trial" action="" method="post">
+
+        <input id="form__fname" class="form__input" type="text" placeholder="First Name" required>
+        <div id="error__fname" class="error__message hidden"></div>
+
+        <input id="form__lname" class="form__input" type="text" placeholder="Last Name" required>
+        <div id="error__lname" class="error__message hidden"></div>
+
+        <input id="form__email" class="form__input" type="email" placeholder="Email Address" required>
+        <div id="error__email" class="error__message hidden"></div>
+
+        <input id="form__password" class="form__input" type="password" placeholder="Password" required>
+        <div id="error__password" class="error__message hidden"></div>
+        
+        <button class="form__btn" type="submit">Claim your free trial</button>
+
+        <p class="form__text">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+      </form>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/Maflo88" target="_blank">María Florencia Servidio</a>.
+    </p>
+  </footer>
+
+  <script src="app/script.js"></script>
+</body>
+</html>
