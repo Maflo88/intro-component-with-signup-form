@@ -44,7 +44,7 @@ body{
     background-color: var(--red);
 
     font-family: Poppins, Overpass, sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 @media screen and (min-width: 60rem){
@@ -66,7 +66,7 @@ body{
 
 
 h1{
-    font-size: 28px;
+    font-size: 1.75rem;
     color: var(--white);
     line-height: 1.4;
 }
@@ -106,14 +106,14 @@ main{
 
     /*width: 100vw;*/
 
-    padding: 0px 24px;
+    padding: 0rem 1.5rem;
 
     text-align: center;
 }
 
 @media screen and (min-width: 60rem){
     main{ 
-        max-width: 1110px;
+        max-width: 69.375rem;
 
         align-self: center;
         padding: 0px;
@@ -158,7 +158,7 @@ header{
 
     color: var(--white);
     font-family: inherit;
-    font-size: .875rem;
+    font-size: 1rem;
 
     transition: background-color var(--transition) ease-in-out;
 }
@@ -186,26 +186,26 @@ header{
 
 @media screen and (min-width: 80.0625rem){
     .form{
-        padding: 32px 2.5rem;
+        padding: 2rem 2.5rem;
         margin: 1.5rem 0rem .625rem 0rem;
     }
 }
 
 .shadow{
-    box-shadow: 0px 8px 1px 0px hsla(249, 10%, 26%, 0.3);
+    box-shadow: 0px .5rem .0625rem 0rem hsla(249, 10%, 26%, 0.3);
 }
 
 input{
     width: 100%;
-    padding: 18px;
+    padding: 1.125rem;
     margin: .5rem 0rem;
 
     font-family: inherit;
-    font-size: .875rem;
+    font-size: 1rem;
     font-weight: 700;
     color: var(--darkBlue);
 
-    border: 1px hsla(246, 25%, 77%, 0.75) solid;
+    border: .0625rem hsla(246, 25%, 77%, 0.75) solid;
     border-radius: .375rem;
     transition: color, border var(--transition) ease-in-out;
 }
